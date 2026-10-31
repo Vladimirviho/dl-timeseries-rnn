@@ -1,0 +1,7 @@
+.venv/
+data/
+models/*.pt
+!models/lstm_24h_48l_32u_T-p-rh-wv.pt
+.env
+__pycache__/
+.ipynb_checkpoints/

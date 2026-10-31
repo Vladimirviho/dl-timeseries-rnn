@@ -1,0 +1,85 @@
+{
+  "config": {
+    "model": "lstm",
+    "hidden": 32,
+    "layers": 1,
+    "input_len": 48,
+    "horizon": 24,
+    "features": "T,p,rh,wv",
+    "weights": "models/lstm_24h_48l_32u_T-p-rh-wv.pt"
+  },
+  "summary": {
+    "n_windows": 10376,
+    "mae_model": 2.278698682785034,
+    "mae_baseline": 2.4917843341827393,
+    "rmse_model": 2.900650978088379,
+    "rmse_baseline": 3.241105079650879,
+    "gain_percent": 8.551528656575865,
+    "gain_mae_ci95": [
+      0.12829382866621017,
+      0.3118580535054206
+    ]
+  },
+  "par_mois": {
+    "1": {
+      "fenetres": 745,
+      "mae_modele": 2.6740000247955322,
+      "mae_baseline": 3.000999927520752
+    },
+    "2": {
+      "fenetres": 696,
+      "mae_modele": 2.5869998931884766,
+      "mae_baseline": 2.937000036239624
+    },
+    "3": {
+      "fenetres": 744,
+      "mae_modele": 1.7799999713897705,
+      "mae_baseline": 1.7879999876022339
+    },
+    "4": {
+      "fenetres": 720,
+      "mae_modele": 2.124000072479248,
+      "mae_baseline": 2.4260001182556152
+    },
+    "5": {
+      "fenetres": 744,
+      "mae_modele": 2.378999948501587,
+      "mae_baseline": 2.5329999923706055
+    },
+    "6": {
+      "fenetres": 720,
+      "mae_modele": 1.8370000123977661,
+      "mae_baseline": 2.0190000534057617
+    },
+    "7": {
+      "fenetres": 744,
+      "mae_modele": 2.322999954223633,
+      "mae_baseline": 2.9079999923706055
+    },
+    "8": {
+      "fenetres": 744,
+      "mae_modele": 2.3440001010894775,
+      "mae_baseline": 2.760999917984009
+    },
+    "9": {
+      "fenetres": 720,
+      "mae_modele": 1.5609999895095825,
+      "mae_baseline": 2.0230000019073486
+    },
+    "10": {
+      "fenetres": 871,
+      "mae_modele": 1.937000036239624,
+      "mae_baseline": 1.9290000200271606
+    },
+    "11": {
+      "fenetres": 1440,
+      "mae_modele": 2.5420000553131104,
+      "mae_baseline": 2.628999948501587
+    },
+    "12": {
+      "fenetres": 1488,
+      "mae_modele": 2.6619999408721924,
+      "mae_baseline": 2.7009999752044678
+    }
+  }
+}
